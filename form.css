@@ -1,0 +1,281 @@
+
+/* body styling */
+
+html	{
+	font-style: tahoma serif;
+	font-weight: lighter;
+}
+
+body	{
+	margin: 0;
+	padding: 0;
+}
+
+
+/** Header Styling */
+header {
+	background-color: #363636;
+	color: white;
+	padding-left: 1000px;
+	padding-top: .6px;
+	padding-bottom: 5px;
+}
+
+
+.header_ul{
+	margin-top: -16px;
+}
+
+.p_header {
+	font-size: 75%;
+}
+.p_header_email {
+	word-spacing: 10px;
+}
+
+
+
+
+
+/* Main Page Container */
+
+.main_container{
+	margin:auto;
+	max-width: 1040px;
+}
+
+/* a element syling */
+
+a {
+	text-decoration: none;
+	font-size: 80%;
+}
+
+.a2	{
+	text-decoration: none;
+	color: #fff;
+	font-size: 80%;
+}
+
+.a2:hover {
+	color:#fff;
+}
+
+.a2{
+	color: #686a6e;
+}
+
+.a2:hover {
+	color: #FFF;
+
+}
+
+li{
+	float: left;
+	padding: 30px 15px;
+	display: block;
+	border-right: 1px solid #686a6e;
+	background-color: #fff;
+	border-bottom-right-radius: 3px;
+	color: #686a6e;
+	border-top-right-radius: 1px;
+}
+
+
+li:hover {
+	background-color: #e91634;
+	border-bottom: 10px solid #918fe9;
+}
+
+ul:hover {
+	color: #fff;
+}
+
+/* Clear float */
+.fix	{
+	clear: both;
+}
+
+
+.col {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+
+	
+
+}
+
+
+.col-xs-11{width: 91.66%;}
+.col-xs-10 {width: 83.332%;}
+.col-xs-9 {width: 75%;}
+.col-xs-8 {width: 66.662%;}
+.col-xs-7 {width: 58.331%;}
+.col-xs-6 {width: 50%;}
+.col-xs-5 {width: 41.662%;}
+.col-xs-4 {width: 33.332%;}
+.col-xs-3 {width: 25%;}
+.col-xs-2 {width: 20%;}
+.col-xs-1 {width: 8.332%;}
+
+
+/** This is the styling for job adverts and other picture discriptions **/
+
+.form_container1{
+	border-top: 10px solid #e0e5ee;
+	width: 100%;
+
+}
+
+.vacancies {
+
+	border: 1px solid black;
+	margin-top: 25px;
+	color: #003484;
+
+}
+
+   
+.upload_cv {
+
+	padding-bottom:750px;
+	margin-left: 50px;
+	background-color: #e4e4e4;
+	border-radius: 10px;
+	padding-top: 30px;
+
+}
+
+
+.vacancies2 {
+
+	padding-bottom: 200px;
+	margin-top: 25px;
+	background-image: url(Images/vacancies.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.upload_cv2 {
+
+	padding-bottom:100px;
+	margin-left: 50px;
+	background-color: #e4e4e4;
+	border-radius:5px;
+	padding-top: 30px;
+	margin-top: 25px;
+	background-image: url(Images/image4.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+
+.upload {
+	margin-left: 35px;
+	color: #003484;
+
+
+}
+
+.alljobs {
+	padding-bottom: 20px;
+	margin-top: 5px;
+	border:1px solid black;
+}
+
+.form_cv {
+	text-align: right;
+	color: #003484;
+}
+
+/** This is the styling for form **/
+
+
+.formstyle{
+	padding-bottom: 5px;
+	font-size: 85%;
+
+}
+
+
+.formstyle1 {
+	padding:1px 20px;
+}
+
+
+
+
+
+input[type="submit"] {
+	padding: 5px 25px;
+	margin-left: 22%;
+	background-color: #004b94;
+	color: #fff;
+	border-radius: 10px;
+	margin-left: -2px;
+
+
+}
+
+
+.confirm {
+	margin-top: 10px;
+}
+
+.confirm_p {
+	font-size: 80%;
+}
+
+
+
+/** Styling for Vacancies and List of Companies **/
+
+.currentvac {
+	text-align: center;
+	color: #003484;
+	font-weight: bolder;
+	font-size: 85%;
+}
+
+.currentvac1 {
+	border-bottom: 1px solid #003484;
+	border-top: 1px solid #003484;
+	font-size: 80%;
+	background-color: #e4e4e4;
+	text-align: center;
+	color: #003484;
+
+
+}
+
+.currentvac2 {
+	border-bottom: 1px solid #003484;
+	border-top: 1px solid #003484;
+	padding-left: 180px;
+	font-size: 95%;
+	font-weight: bolder;
+	background-color: #e4e4e4;
+	text-align: center;
+	color: #003484;
+
+}
+
+
+
+
+
+
+
+.services_li {
+	display: none;
+}
+
+
+.services_li:hover {
+	display: all;
+}
